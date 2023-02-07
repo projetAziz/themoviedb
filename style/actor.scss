@@ -1,0 +1,24 @@
+.actor img{  
+border-radius: 0.5em;
+
+}
+
+.actor .col{
+padding: 40px;
+text-align: center;
+}
+
+.bottom-right{
+    margin:0;
+}
+
+.actor-center{
+    margin-left: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .actor-center{
+        margin-left: -20px;
+    }
+
+  }

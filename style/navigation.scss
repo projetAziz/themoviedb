@@ -1,0 +1,105 @@
+.stick{
+        position: fixed;
+        z-index: 99;
+        top: 0;
+        width: 100%;        
+}
+
+.Nav
+{
+
+box-shadow: #0003078e 0px 7px 29px 2px;
+font-family:'Roboto Condensed', sans-serif;
+background:linear-gradient(130deg,#0b0447,#3e83dcde);
+
+}
+
+.icon1{
+    color: #e80a0a;
+}
+
+.icon2{
+    color: #00e500;
+}
+.icon3{
+    color: #b50bd3;
+}
+
+a.logo.navbar-brand{
+    color: blanchedalmond;
+}
+
+a.navOp.nav-link{
+    margin-left: 10px;
+    
+    font-size: 150%;
+   color: white !important; 
+   
+}
+
+ .navbar{
+    margin-top: 2em;
+    display: block !important;
+ }
+
+.d-flex{
+   text-align: left;
+}
+
+img.logo{
+    width: 230px;
+margin-top: 20px;
+}
+
+
+.navbar-toggler-icon{
+    
+    line-height: 1;
+    font-size: 1rem;
+}
+.navbar-light .navbar-toggler-icon {
+
+    background-image: url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke=%27rgba%280, 0, 0, 0.55%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e');
+    filter:invert(100%) ;
+}
+.icon.navbar-toggler.collapsed{
+    border: none;
+    border: none;
+    border-radius:0px;
+    
+
+}
+
+.icon.navbar-toggler{
+    
+    border: none;
+    background-color: (43, 98, 169)
+}
+
+.navbar-light .navbar-toggler {
+  
+    color: transparent  !important ;
+    border-color: transparent  !important ;
+    border-radius: 0;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  body::-webkit-scrollbar-track {
+    
+    background-color:rgb(11,4,71) ;
+   
+  }
+  body::-webkit-scrollbar-thumb {
+    background: linear-gradient(greenyellow, rgb(11,4,71));    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+   }
+
+   @media only screen and (max-width: 600px) {
+    .navbar{
+        margin-top: 0;
+    }
+
+  }
+
